@@ -9,7 +9,7 @@ api = Api(app)
 Bcrypt = Bcrypt(app)
 
 app.config['MONGODB_SETTINGS'] = {
-    'host': 'mongodb+srv://POS:esjerukhangat@cluster0.gyggi.mongodb.net/test?retryWrites=true&w=majority'
+    'host': 'mongodb+srv://'
 }
 
 initialize_db(app)
